@@ -86,7 +86,7 @@ html.fsvs #fsvs-pagination li>span{
 	margin-right: auto;
 	margin-top: 10%;
 }
-.Page1content .prodvizhenie{
+.prodvizhenie{
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFFFFF;
@@ -211,12 +211,15 @@ html.fsvs #fsvs-pagination li>span{
   padding-top: 25px;
   text-align: right;
 }
-
+.toggled .icon-menu{
+	left: 0;
+}
 .icon-menu {
   cursor: pointer;
   position: fixed;
   top: 7%;
   left: 5%;
+	z-index: 10;
 }
 .icon-menu .bar{
 	background: url('image/menu.png') no-repeat center center;
